@@ -35,10 +35,10 @@ def rps_game():
      
         # End game if someone reaches 3 points   
         if user_score == 3:
-            print("🎉 Yay! You win the game!")
+            print(" Yay! You win the game!")
             break
         elif comp_score == 3:
-            print("🤖 Computer wins the game! Better luck next time!")
+            print(" Computer wins the game! Better luck next time!")
             break
     
     # Ask to play again    
@@ -47,7 +47,7 @@ def rps_game():
     if again == "yes":
         rps_game()
     else:
-        print("Thanks for playing! 👋")
+        print("Thanks for playing!")
         
             
 if __name__ == "__main__":
